@@ -39,6 +39,6 @@ tk.Button(master, text='Quit', command=master.quit).grid(row=len(time_record)+1,
 
 tk.mainloop()
 
-time.sleep(3)
+time.sleep(0.5)
 save_obj(time_record, 'record')
 
